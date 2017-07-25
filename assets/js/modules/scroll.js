@@ -3,7 +3,7 @@ let newsContainer = document.querySelector('#news'),
     postsInnerContainer = document.querySelector('.mateblock'),
     allPosts = postsInnerContainer.querySelectorAll('.block'),
     latestPost = allPosts[allPosts.length - 3],
-    latestPostBottom = latestsPost ? latestPost.offsetTop : null,
+    latestPostBottom = latestPost ? latestPost.offsetTop : null,
     bottomCache = 0;
 
 
